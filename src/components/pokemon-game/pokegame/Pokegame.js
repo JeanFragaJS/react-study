@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Pokedex from "../pokedex/Pokedex";
 import "./Pokegame.css"
 
-class Pokegame extends Component {
+export class Pokegame extends Component {
   static defaultProps = {
     pokemons: [
       {id: 136, name: 'Flareon', type: 'fire', exp: 95},
@@ -36,5 +36,4 @@ class Pokegame extends Component {
     )
   }
 }
-
-export default Pokegame; 
+ 
