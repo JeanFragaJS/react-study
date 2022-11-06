@@ -48,6 +48,18 @@ class PatternExempleImmutableState extends Component {
     We can use pure functions as .map, .filter, .reduce and ...spread operator to make copys
     and update the state. 
 
+    Funções puras são funções em que seu retorno é previsível e determinado APENAS por seus valores de entrada. 
+    SEM EFEITOS COLATETAIS.   
+    EX: 
+    let count = 0 
+    function soma (a, b) {
+      count = count+1; 
+      return a + b;  
+    }
+    Na função soma, embora o retorno seja determinado pelas entradas, a variável count está sendo modificada, 
+    o que torna a função soma imupura. 
+     
+
     this is sligth (leve, pequeno) efficency cost due (devido) the O(n) space/time required
     to make a copy, but is almost aways whorth ensure that your app doesnt extremely difficult
     to detect bugs due to mischevious(maliciosos-errado) side effects.  
