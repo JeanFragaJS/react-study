@@ -1,0 +1,14 @@
+.Lotto {
+  border: solid 2.5px rgb(48, 45, 45);
+  padding: 1em 0 2em 0; 
+  margin: 1em auto auto; 
+  border-radius: 10px;
+  width: 40em; 
+}
+
+.Lotto button {
+  margin-top: 1em;
+  font-size: 120%;
+  border-radius: 10px;
+  border: solid 1px rgb(8, 8, 8);
+}

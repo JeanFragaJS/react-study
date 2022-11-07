@@ -4,8 +4,8 @@ import React, {Component} from "react";
   The safestway to update state is to make a copy of it, and then call
   this.setState with the new copy. 
   
-  This pattern is goos habit to get into for React apps and
-  reuired for using Redux. 
+  This pattern is good habit to get into for React apps and
+  required for using Redux. 
 */ 
 
 class PatternExempleImmutableState extends Component {
@@ -47,7 +47,11 @@ class PatternExempleImmutableState extends Component {
   /*
     We can use pure functions as .map, .filter, .reduce and ...spread operator to make copys
     and update the state. 
-
+    
+    this is sligth (leve, pequeno) efficency cost due (devido) the O(n) space/time required
+    to make a copy, but is almost aways whorth ensure that your app doesnt extremely difficult
+    to detect bugs due to mischevious(maliciosos-errado) side effects.  
+  
     Funções puras são funções em que seu retorno é previsível e determinado APENAS por seus valores de entrada. 
     SEM EFEITOS COLATETAIS.   
     EX: 
@@ -58,11 +62,7 @@ class PatternExempleImmutableState extends Component {
     }
     Na função soma, embora o retorno seja determinado pelas entradas, a variável count está sendo modificada, 
     o que torna a função soma imupura. 
-     
 
-    this is sligth (leve, pequeno) efficency cost due (devido) the O(n) space/time required
-    to make a copy, but is almost aways whorth ensure that your app doesnt extremely difficult
-    to detect bugs due to mischevious(maliciosos-errado) side effects.  
   */
 
 
