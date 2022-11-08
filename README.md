@@ -6,8 +6,10 @@
 ### State part-1 excersice
 ![state](http://g.recordit.co/MAKebsJbt8.gif)
 
-### setState  excersice
-![setState](http://g.recordit.co/wOLLCuztFI.gif)
+### setState excersice
+## Roll Dice
+![setState-dice](http://g.recordit.co/wOLLCuztFI.gif)
+## Hangman
 ![setState-hangman](http://g.recordit.co/ccPLXMjVM3.gif)
 
 ### Método bind nas classes component
