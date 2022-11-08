@@ -4,10 +4,11 @@
 ![pokegame](http://g.recordit.co/t23PJRfGl1.gif)
 
 ### State part-1 excersice
-![state-1](http://g.recordit.co/MAKebsJbt8.gif)
+![state](http://g.recordit.co/MAKebsJbt8.gif)
 
 ### setState  excersice
 ![setState](http://g.recordit.co/wOLLCuztFI.gif)
+![setState-hangman](http://g.recordit.co/ccPLXMjVM3.gif)
 
 ### Método bind nas classes component
 **Existem três formas de se evitar o undefined do `this`**
