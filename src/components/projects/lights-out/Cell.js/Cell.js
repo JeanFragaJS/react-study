@@ -8,11 +8,13 @@ export default class Cell extends Component {
   }
 
   handleClick (evt) {
-    this.props.flipCellaroundMe();
+    this.props.flipCellsAroundMe(this.props.coord);
   }
 
   render () {
-    let classes = "Cell" + (this.props.isLit ? "Cell-lit" : "" ); 
-    return  <td className={classes}></td>
+    let classes= `Cell ${this.props.isLit ? "Cell-lit" : ""}` ; 
+    return  <td className={classes} onClick={this.handleClick}></td>
   }
 }
+
+//"Cell" + (this.props.isLit ? "Cell-lit" : "" )
